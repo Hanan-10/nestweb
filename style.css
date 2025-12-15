@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+/* NAVBAR */
+header {
+  background-color: #0b1120;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #e5e7eb;
+}
+
+nav a {
+  color: #9ca3af;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+nav a.active,
+nav a:hover {
+  color: white;
+  border-bottom: 2px solid #3b82f6;
+}
+
+/* HERO */
+.hero {
+  height: 550px;
+  background: linear-gradient(
+    rgba(11,17,32,0.7),
+    rgba(11,17,32,0.7)
+  ),
+  url("https://source.unsplash.com/1600x900/?technology,office");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  color: white;
+  margin-left: 10%;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* CONTENT */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+.section-title,
+.page-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.text {
+  font-size: 18px;
+  color: #4b5563;
+}
+
+/* CARDS */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.08);
+}
+
+/* SERVICES LIST */
+.service-list li {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+/* CONTACT */
+.contact-box {
+  background: #eef2ff;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0b1120;
+  color: #9ca3af;
+  text-align: center;
+  padding: 20px;
+}
